@@ -1,5 +1,6 @@
 // IMPORTS
 import renderHobbies from "../components/hobbies.js";
+import Gallery from '../components/Gallery.js';
 // EXECUTION
 (async () => {
     /* HEADER-start */
@@ -37,6 +38,7 @@ import renderHobbies from "../components/hobbies.js";
     /* EXPERTISE-end */
 
     /* PORTFOLIO-start */
+    new Gallery('#portfolio', './data/portfolio.json');
     /* PORTFOLIO-end */
 
     /* TESTIMONIALS-start */
